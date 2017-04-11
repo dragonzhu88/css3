@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>结构性伪类选择器—empty</title>
+
+</head>
+<body>
+<div>我这里有内容</div>
+<div> <!-- 我这里有一个空格 --></div>
+<div></div><!-- 我这里任何内容都没有 -->
+
+
+<style>
+
+    div:empty{
+        border: 1px solid green;
+    }
+
+</style>
+
+</body>
+</html>
